@@ -55,15 +55,15 @@ class _MainPageState extends State<MainPage> {
       items: [
         BottomNavigationBarItem(
           icon: Icon(Icons.email),
-          title: Text('Bug Report', style: style),
+          label: 'Bug Report',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.perm_device_info),
-          title: Text('DeviceInfo', style: style),
+          label: 'Bug Report',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.info_outlined),
-          title: Text('PackageInfo'),
+          label: 'Bug Report',
         ),
       ],
       onTap: (int index) => setState(() => this.index = index),
